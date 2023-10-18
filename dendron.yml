@@ -93,6 +93,8 @@ publishing:
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
+    assetsPrefix: /pkm
+    siteUrl: https://pkm.zhu-kun.com
     siteHierarchies:
         - root
     writeStubs: false
