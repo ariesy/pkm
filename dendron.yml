@@ -23,6 +23,10 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: templates
+            seed: dendron.templates
+            name: dendron.templates
+        -
             fsPath: .
             selfContained: true
             name: pkm
@@ -73,6 +77,8 @@ workspace:
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
     enablePersistentHistory: false
+    seeds:
+        dendron.templates: {}
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -106,3 +112,8 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: search
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - dendron.templates
+            - pkm
