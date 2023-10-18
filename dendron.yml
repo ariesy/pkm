@@ -101,11 +101,14 @@ publishing:
     seo:
         title: Dendron
         description: Personal Knowledge Space
+        author: Kun Zhu
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
+        cname: pkm.zhu-kun.com
+        editRepository: https://github.com/ariesy/pkm
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
@@ -121,3 +124,4 @@ publishing:
             - pkm
     enableHierarchyDisplay: true
     enableBackLinks: true
+    hierarchyDisplayTitle: Children
