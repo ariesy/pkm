@@ -2,6 +2,7 @@ version: 5
 dev:
     enablePreviewV2: true
     enableSelfContainedVaults: true
+    enableExportPodV2: true
 commands:
     lookup:
         note:
@@ -93,7 +94,6 @@ publishing:
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
-    siteUrl: https://pkm.zhu-kun.com
     siteHierarchies:
         - root
     writeStubs: false
@@ -113,8 +113,11 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: search
+    siteUrl: https://pkm.zhu-kun.com
     duplicateNoteBehavior:
         action: useVault
         payload:
             - dendron.templates
             - pkm
+    enableHierarchyDisplay: true
+    enableBackLinks: true
