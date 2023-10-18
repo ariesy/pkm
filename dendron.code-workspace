@@ -27,7 +27,8 @@
             "activityBar.background": "#191093",
             "titleBar.activeBackground": "#2317CE",
             "titleBar.activeForeground": "#FCFCFF"
-        }
+        },
+        "powershell.cwd": "pkm"
     },
     "extensions": {
         "recommendations": [

@@ -84,7 +84,7 @@ preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableFrontmatterTags: true
-    enableHashesForFMTags: false
+    enableHashesForFMTags: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: true
@@ -103,15 +103,15 @@ publishing:
         description: Personal Knowledge Space
         author: Kun Zhu
     github:
+        cname: pkm.zhu-kun.com
         enableEditLink: true
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
-        cname: pkm.zhu-kun.com
         editRepository: https://github.com/ariesy/pkm
     enableSiteLastModified: true
     enableFrontmatterTags: true
-    enableHashesForFMTags: false
+    enableHashesForFMTags: true
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
