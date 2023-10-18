@@ -1,20 +1,17 @@
 ---
 id: 9tq2uj2rkjq6qd08ftir0mx
-title: Root
+title: My Personal Knowledge Management Vault
 desc: ''
-updated: 1697598431220
+updated: 1697608261505
 created: 1697598431220
 ---
 # Welcome to Dendron
 
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
+This is my personal knowledge management vault.
 
 ## Lookup
 
 This section contains useful links to related resources.
 
-- [Getting Started Guide](https://link.dendron.so/6b25)
-- [Discord](https://link.dendron.so/6b23)
-- [Home Page](https://wiki.dendron.so/)
-- [Github](https://link.dendron.so/6b24)
-- [Developer Docs](https://docs.dendron.so/)
+- [Home Page](https://pkm.zhu-kun.com/)
+- [Github](https://github.com/ariesy/pkm)
