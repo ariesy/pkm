@@ -87,7 +87,7 @@ preview:
     enableHashesForFMTags: false
     enablePrettyRefs: true
     enableKatex: true
-    automaticallyShowPreview: false
+    automaticallyShowPreview: true
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
