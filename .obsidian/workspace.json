@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "d6134286725e211f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fffb1ce96023af4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21d709092d1590f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/root.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4b9dad035da660e",
+    "type": "split",
+    "children": [
+      {
+        "id": "371a90c54b5932d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "498373201ceb3da6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "344df91b6ed154ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b35bc3d11d88b020",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1ddb1a056324a1ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "59aebf844dea16e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51585845e4a8cc59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/root.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa6f7c6b18b2bf5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/root.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4c8222c4e167865d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8ac98bd1a13e61e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/root.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e21d709092d1590f",
+  "lastOpenFiles": [
+    "notes/software-engineer.git.git-stage-all-commit.md",
+    "notes/software-engineer.md",
+    "notes/root.md",
+    "seeds/dendron.templates/templates/templates.module.dev.md",
+    "seeds/dendron.templates/templates/templates.module.md",
+    "seeds/dendron.templates/templates/templates.md",
+    "seeds/dendron.templates/templates/schemas.module.md",
+    "seeds/dendron.templates/templates/root.md"
+  ]
+}
