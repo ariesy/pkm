@@ -3,7 +3,7 @@ id: xhx88229rlf7cplyn8xgeo0
 title: Create Init.d Script
 desc: ''
 tags: [linux, init_d]
-updated: 1698742229018
+updated: 1698744798284
 created: 1698739588527
 ---
 ## Sample service script for debian/ubuntu
@@ -12,7 +12,7 @@ Look at [LSB init scripts](http://wiki.debian.org/LSBInitScripts) for more infor
 
 ## Usage
 
-Copy to `/etc/init.d`:
+Copy [service.sh](/assets/scripts/service.sh) to `/etc/init.d`:
 
 ```sh
 # replace "$YOUR_SERVICE_NAME" with your service's name
@@ -63,6 +63,10 @@ This can be verified with the command ```cat -v service.sh``` and verifying that
 To fix that:
 
 ```sed -i 's/\r//g' service.sh```
+
+## auto create new service
+
+Using [new_service.sh](/assets/scripts/new_service.sh) to auto create new service.
 
 ## reference
 
