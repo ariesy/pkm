@@ -2,7 +2,8 @@
 id: xhx88229rlf7cplyn8xgeo0
 title: Create Init.d Script
 desc: ''
-updated: 1698739812168
+tags: [linux, init.d]
+updated: 1698739998020
 created: 1698739588527
 ---
 ## Sample service script for debian/ubuntu
