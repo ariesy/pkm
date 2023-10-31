@@ -106,7 +106,7 @@ publishing:
         cname: pkm.zhu-kun.com
         enableEditLink: true
         editLinkText: Edit this page on GitHub
-        editBranch: main
+        editBranch: master
         editViewMode: tree
         editRepository: https://github.com/ariesy/pkm
     enableSiteLastModified: true
