@@ -64,6 +64,14 @@ To fix that:
 
 ```sed -i 's/\r//g' service.sh```
 
+
+```Failed to start xxx.service: Unit xxx.service not found.```
+
+to fix that:
+```bash
+sudo systemctl enable xxx
+```
+
 ## auto create new service
 
 Using [new_service.sh](/assets/scripts/new_service.sh) to auto create new service.
