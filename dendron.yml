@@ -24,10 +24,6 @@ commands:
 workspace:
     vaults:
         -
-            fsPath: templates
-            seed: dendron.templates
-            name: dendron.templates
-        -
             fsPath: .
             selfContained: true
             name: pkm
@@ -120,7 +116,6 @@ publishing:
     duplicateNoteBehavior:
         action: useVault
         payload:
-            - dendron.templates
             - pkm
     enableHierarchyDisplay: true
     enableBackLinks: true
