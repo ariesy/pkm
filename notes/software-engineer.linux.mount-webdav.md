@@ -2,7 +2,8 @@
 id: 7ow1aom85bxn67e6erzayig
 title: Mount Webdav
 desc: ''
-updated: 1699629024183
+tags: [linux]
+updated: 1699631313753
 created: 1699628645432
 ---
 Run the following command to install davfs2
