@@ -3,7 +3,7 @@ id: 7ow1aom85bxn67e6erzayig
 title: Mount Webdav
 desc: ''
 tags: linux]
-updated: 1699631350806
+updated: 1700284160326
 created: 1699628645432
 ---
 Run the following command to install davfs2
@@ -23,8 +23,8 @@ sudo chown root:root /etc/davfs2/secrets
 Mount WebDAV
 
 ```bash
-sudo mkdir /mnt/alist
-sudo mount -t davfs http://192.168.31.198:5244/dav /mnt/alist
+sudo mkdir /mnt/alist-drive
+sudo mount -t davfs http://192.168.31.198:5244/dav /mnt/alist-drive
 ```
 
 references:
