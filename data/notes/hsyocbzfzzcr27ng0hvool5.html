@@ -1,0 +1,15 @@
+<h1 id="allow-wsl2-access-network">Allow Wsl2 Access Network<a aria-hidden="true" class="anchor-heading icon-link" href="#allow-wsl2-access-network"></a></h1>
+<p>If your WSL2 can't access internet network, you can use following powershell scripts to resolve this issue:</p>
+<pre class="language-powershell"><code class="language-powershell"><span class="token comment">#Requires -RunAsAdministrator</span>
+
+<span class="token function">Set-NetFirewallProfile</span> <span class="token operator">-</span>Profile Private <span class="token operator">-</span>DisabledInterfaceAliases <span class="token string">"vEthernet (WSL)"</span>
+<span class="token function">Set-NetFirewallProfile</span> <span class="token operator">-</span>Profile Public <span class="token operator">-</span>DisabledInterfaceAliases <span class="token string">"vEthernet (WSL)"</span>
+<span class="token function">New-NetFirewallRule</span> <span class="token operator">-</span>DisplayName <span class="token string">"WSL"</span> <span class="token operator">-</span>Direction Inbound  <span class="token operator">-</span>InterfaceAlias <span class="token string">"vEthernet (WSL)"</span>  <span class="token operator">-</span>Action Allow
+</code></pre>
+<p><a href="/assets/scripts/allow%20wsl2%20access%20network.ps1">allow wsl2 access network.ps1</a></p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #befd73;" href="/notes/e0xa4qkdstbefku97z2p56o">#WSL</a></li>
+<li><a class="color-tag" style="--tag-color: #87fd05;" href="/notes/u0li8mukqqst0xdm21v9cjn">#powershell</a></li>
+</ol>

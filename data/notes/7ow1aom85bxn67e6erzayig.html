@@ -1,0 +1,21 @@
+<h1 id="mount-webdav">Mount Webdav<a aria-hidden="true" class="anchor-heading icon-link" href="#mount-webdav"></a></h1>
+<p>Run the following command to install davfs2</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> davfs2
+</code></pre>
+<p>Run the following command to edit webdav secret and add the following lines:
+Use the following commands to change file permissions:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">chmod</span> <span class="token number">600</span> /etc/davfs2/secrets
+<span class="token function">sudo</span> <span class="token function">chown</span> root:root /etc/davfs2/secrets
+</code></pre>
+<p>Mount WebDAV</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">mkdir</span> /mnt/alist-drive
+<span class="token function">sudo</span> <span class="token function">mount</span> -t davfs http://192.168.31.198:5244/dav /mnt/alist-drive
+</code></pre>
+<p>references:
+<a href="https://wiki.archlinux.org/title/Davfs2">https://wiki.archlinux.org/title/Davfs2</a>
+<a href="https://manpages.ubuntu.com/manpages/xenial/man8/mount.davfs.8.html">https://manpages.ubuntu.com/manpages/xenial/man8/mount.davfs.8.html</a></p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#linux] (Private)</a></li>
+</ol>
