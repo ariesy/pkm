@@ -2,12 +2,13 @@
 id: zexj7dtzcnoyub3dm4jfjp1
 title: Mount Smb in WSL
 desc: ''
-tags: [WSL]
-updated: 1700293025813
+updated: 1710039499327
 created: 1700292972105
+tags:
+  - WSL
 ---
 ```bash
-sudo mount -t drvfs '\\server\share' /mnt/share
+sudo mount -t drvfs '\\192.168.31.27\homes' /mnt/nas
 ```
 
 Reference:
