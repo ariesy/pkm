@@ -1,0 +1,6 @@
+<h1 id="java-gateway-process-exited-before-sending-the-driver-its-port-number">Java gateway process exited before sending the driver its port number<a aria-hidden="true" class="anchor-heading icon-link" href="#java-gateway-process-exited-before-sending-the-driver-its-port-number"></a></h1>
+<p>Add following env variable:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">export</span> <span class="token assign-left variable">PYSPARK_SUBMIT_ARGS</span><span class="token operator">=</span><span class="token string">"--master local[2] pyspark-shell"</span>
+</code></pre>
+<p>Reference:
+<a href="https://stackoverflow.com/questions/31841509/pyspark-exception-java-gateway-process-exited-before-sending-the-driver-its-po/36367669#36367669">https://stackoverflow.com/questions/31841509/pyspark-exception-java-gateway-process-exited-before-sending-the-driver-its-po/36367669#36367669</a></p>

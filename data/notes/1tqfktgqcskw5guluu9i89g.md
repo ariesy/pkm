@@ -1,0 +1,7 @@
+After installed ubuntu with linux deploy on android, the default shell is set to sh. We can change the default shell to bash with following command:
+
+```bash
+chsh -s /bin/bash
+```
+
+Log out and then log in, the default shell is changed.

@@ -1,0 +1,21 @@
+<h1 id="ungrade-ubuntu-1804bionic-beaver-to-2004-focal-fossa--on-linux-deploy">Ungrade Ubuntu 18.04(Bionic Beaver) to 20.04 (Focal Fossa)  on linux deploy<a aria-hidden="true" class="anchor-heading icon-link" href="#ungrade-ubuntu-1804bionic-beaver-to-2004-focal-fossa--on-linux-deploy"></a></h1>
+<h2 id="update-sourcelist">update source.list<a aria-hidden="true" class="anchor-heading icon-link" href="#update-sourcelist"></a></h2>
+<p>Update /etc/apt/sources.list, add following lines:</p>
+<pre class="language-bash"><code class="language-bash">deb http://ports.ubuntu.com/ bionic-updates main restricted multiverse universe
+deb-src http://ports.ubuntu.com/ bionic-updates main restricted multiverse universe
+</code></pre>
+<h2 id="run-update">run update<a aria-hidden="true" class="anchor-heading icon-link" href="#run-update"></a></h2>
+<h3 id="install-ubuntu-release-upgrader-core">install ubuntu-release-upgrader-core<a aria-hidden="true" class="anchor-heading icon-link" href="#install-ubuntu-release-upgrader-core"></a></h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update <span class="token operator">&#x26;</span> <span class="token function">apt</span> upgrade <span class="token operator">&#x26;</span> <span class="token function">apt</span> <span class="token function">install</span> ubuntu-release-upgrader-core
+</code></pre>
+<h3 id="update-with-do-release-upgrade">update with do-release-upgrade<a aria-hidden="true" class="anchor-heading icon-link" href="#update-with-do-release-upgrade"></a></h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> do-release-upgrade
+</code></pre>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #39ad48;" href="/notes/ffcimh0qyzmo6rxrxjqos5h">#linux</a></li>
+<li><a class="color-tag" style="--tag-color: #a5a502;" href="/notes/nrclw6iqjq9rzl4krvdx8uz">#ubuntu</a></li>
+<li><a class="color-tag" style="--tag-color: #ffd1df;" href="/notes/bqs3cs7kilvlk5qh5mpm4ai">#android</a></li>
+<li><a class="color-tag" style="--tag-color: #6c7a0e;" href="/notes/bxahgig8bh7akmm4soedysc">#linux-deploy</a></li>
+</ol>

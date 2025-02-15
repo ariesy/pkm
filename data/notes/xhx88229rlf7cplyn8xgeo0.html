@@ -1,0 +1,51 @@
+<h1 id="create-initd-script">Create Init.d Script<a aria-hidden="true" class="anchor-heading icon-link" href="#create-initd-script"></a></h1>
+<h2 id="sample-service-script-for-debianubuntu">Sample service script for debian/ubuntu<a aria-hidden="true" class="anchor-heading icon-link" href="#sample-service-script-for-debianubuntu"></a></h2>
+<p>Look at <a href="http://wiki.debian.org/LSBInitScripts">LSB init scripts</a> for more information.</p>
+<h2 id="usage">Usage<a aria-hidden="true" class="anchor-heading icon-link" href="#usage"></a></h2>
+<p>Copy <a href="/assets/scripts/service.sh">service.sh</a> to <code>/etc/init.d</code>:</p>
+<pre class="language-sh"><code class="language-sh"># replace "$YOUR_SERVICE_NAME" with your service's name
+cp "service.sh" "/etc/init.d/$YOUR_SERVICE_NAME"
+chmod +x /etc/init.d/$YOUR_SERVICE_NAME
+chown root /etc/init.d/$YOUR_SERVICE_NAME
+chgrp root /etc/init.d/$YOUR_SERVICE_NAME
+</code></pre>
+<p>Edit the script and replace following tokens:</p>
+<ul>
+<li><code>&#x3C;NAME></code> = <code>$YOUR_SERVICE_NAME</code></li>
+<li><code>&#x3C;DESCRIPTION></code> = Describe your service here (be concise)</li>
+<li>Feel free to modify the LSB header, I've made default choices you may not agree with</li>
+<li><code>&#x3C;COMMAND></code> = Command to start your server (for example <code>/home/myuser/.dropbox-dist/dropboxd</code>)</li>
+<li><code>&#x3C;USER></code> = Login of the system user the script should be run as (for example <code>myuser</code>)</li>
+</ul>
+<h2 id="test-the-service">Test the service<a aria-hidden="true" class="anchor-heading icon-link" href="#test-the-service"></a></h2>
+<pre class="language-sh"><code class="language-sh">service $YOUR_SERVICE_NAME start
+service $YOUR_SERVICE_NAME stop
+</code></pre>
+<h2 id="run-at-boot-time">Run at boot-time<a aria-hidden="true" class="anchor-heading icon-link" href="#run-at-boot-time"></a></h2>
+<pre class="language-sh"><code class="language-sh">update-rc.d $YOUR_SERVICE_NAME defaults
+</code></pre>
+<h2 id="uninstall">Uninstall<a aria-hidden="true" class="anchor-heading icon-link" href="#uninstall"></a></h2>
+<p>The service can uninstall itself with <code>service $NAME uninstall</code>. Yes, that's very easy, therefore a bit dangerous. But as it's an auto-generated script, you can bring it back very easily. I use it for tests and often install/uninstall, that's why I've put that here.</p>
+<p>Don't want it? Remove lines 56-58 of the service's script.</p>
+<h2 id="logs">Logs?<a aria-hidden="true" class="anchor-heading icon-link" href="#logs"></a></h2>
+<p>Your service will log its output to <code>/var/log/$NAME.log</code>. Don't forget to setup a logrotate :)</p>
+<h2 id="problems">Problems<a aria-hidden="true" class="anchor-heading icon-link" href="#problems"></a></h2>
+<p><code>unable to execute /etc/init.d/$YOUR_SERVICE_NAME: No such file or directory.</code></p>
+<p>Maybe it has been modified by a Windows's editor and the line endings could be not corrected.
+This can be verified with the command <code>cat -v service.sh</code> and verifying that there are some strange characters as <code>^M</code>.</p>
+<p>To fix that:</p>
+<p><code>sed -i 's/\r//g' service.sh</code></p>
+<p><code>Failed to start xxx.service: Unit xxx.service not found.</code></p>
+<p>to fix that:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> xxx
+</code></pre>
+<h2 id="auto-create-new-service">auto create new service<a aria-hidden="true" class="anchor-heading icon-link" href="#auto-create-new-service"></a></h2>
+<p>Using <a href="/assets/scripts/new_service.sh">new_service.sh</a> to auto create new service.</p>
+<h2 id="reference">reference<a aria-hidden="true" class="anchor-heading icon-link" href="#reference"></a></h2>
+<p><a href="https://gist.github.com/miromannino/a17f3e6f3fdcb4d94a1f">https://gist.github.com/miromannino/a17f3e6f3fdcb4d94a1f</a></p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #39ad48;" href="/notes/ffcimh0qyzmo6rxrxjqos5h">#linux</a></li>
+<li><a class="color-tag" style="--tag-color: #bc13fe;" href="/notes/lfov4p3lf9ta8k8t159ajpq">#init_d</a></li>
+</ol>

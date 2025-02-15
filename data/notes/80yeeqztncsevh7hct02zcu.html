@@ -1,0 +1,7 @@
+<h1 id="auto-index-new-files">Auto Index New Files<a aria-hidden="true" class="anchor-heading icon-link" href="#auto-index-new-files"></a></h1>
+<p>Create a cron job:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">crontab</span> -e
+</code></pre>
+<p>Add following command:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> <span class="token builtin class-name">exec</span> -ti <span class="token punctuation">[</span>container-name<span class="token punctuation">]</span> photoprism index
+</code></pre>

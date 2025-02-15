@@ -1,0 +1,390 @@
+{
+  "roots": [
+    {
+      "key": "szxr9zpeiknws64jt9pukac",
+      "title": "Software Engineer",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "pkm",
+      "children": [
+        {
+          "key": "zy1dt4ldyu1o67srea76wmf",
+          "title": "Git",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "qg6ox5gr0a9oee3gbv9ywsd",
+              "title": "Git Stage All Then Commit And Push",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "2ic6vb9yhizid92ur9n9xxi",
+          "title": "GitHub",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "dkv1l9rjfmtuvb381wzfylc",
+              "title": "Create Custom Domains for Multiple Github Pages Repos",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "216hex5p1kh2k1kdaqu7weu",
+          "title": "Java",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "lpfrr1yacs078bgw0p6atsn",
+              "title": "Spring",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": [
+                {
+                  "key": "8ro3fhncxihetmn2tvwsn44",
+                  "title": "Deserialize Enum Ignore Case in Controller",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "pkm",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "17v6equ3zmuv4vr4f8cnq8n",
+          "title": "Linux",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "1tqfktgqcskw5guluu9i89g",
+              "title": "Change Default Shell",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "xhx88229rlf7cplyn8xgeo0",
+              "title": "Create Init.d Script",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "osvx2gnctsod61vkscwznbl",
+              "title": "Link Folder",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "zexj7dtzcnoyub3dm4jfjp1",
+              "title": "Mount Smb in WSL",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "7ow1aom85bxn67e6erzayig",
+              "title": "Mount Webdav",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "0x0m39l0mocbfqqchcfzj6r",
+              "title": "Show All User Group",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "g9nwbq4cmyhe250ps16o3ko",
+              "title": "Ungrade Ubuntu 18.04(Bionic Beaver) to 20.04 (Focal Fossa)  on linux deploy",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "grfp8i5pu8hafamegys9gin",
+          "title": "Python",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "hbledjo7sh6d5im35q5tz2n",
+              "title": "Pyspark",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": [
+                {
+                  "key": "tpph2zjpfbnsmh5976o9bbz",
+                  "title": "Java gateway process exited before sending the driver its port number",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "pkm",
+                  "children": []
+                },
+                {
+                  "key": "sqj5q15jlx928zdnfy23sc9",
+                  "title": "Java Object Not Callable",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "pkm",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "utq4u5ziflsa3ueu03t3u7w",
+          "title": "Windows Command Set Proxy",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "709wtulmm9cgm4rvovmt289",
+          "title": "Wsl2",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "hsyocbzfzzcr27ng0hvool5",
+              "title": "Allow Wsl2 Access Network",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            },
+            {
+              "key": "q655mfqtrm5d08yt11ty5u2",
+              "title": "Forward Wsl Port to Host",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kqmdg2z40yjosenvccpq0u1",
+      "title": "Tags",
+      "icon": "numberOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "pkm",
+      "children": [
+        {
+          "key": "e0xa4qkdstbefku97z2p56o",
+          "title": "WSL",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "bqs3cs7kilvlk5qh5mpm4ai",
+          "title": "Android",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "lfov4p3lf9ta8k8t159ajpq",
+          "title": "init.d",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "ffcimh0qyzmo6rxrxjqos5h",
+          "title": "Linux",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "bxahgig8bh7akmm4soedysc",
+          "title": "Linux Deploy",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "u0li8mukqqst0xdm21v9cjn",
+          "title": "Powershell",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "tyu44doj7y5p89moz91x7oi",
+          "title": "Shell",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        },
+        {
+          "key": "nrclw6iqjq9rzl4krvdx8uz",
+          "title": "Ubuntu",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "pkm",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "wbzzi4bmw5c8bpmdf0bvnuv",
+      "title": "Utility",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "pkm",
+      "children": [
+        {
+          "key": "v0ikr6yppe3n389xq7b9bw3",
+          "title": "Photoprism",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": [
+            {
+              "key": "80yeeqztncsevh7hct02zcu",
+              "title": "Auto Index New Files",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "pkm",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "gl7r3jaf7lc08fvnw91hgf7",
+          "title": "Sync Folder Outside Onedrive Root",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "pkm",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "szxr9zpeiknws64jt9pukac": null,
+    "zy1dt4ldyu1o67srea76wmf": "szxr9zpeiknws64jt9pukac",
+    "qg6ox5gr0a9oee3gbv9ywsd": "zy1dt4ldyu1o67srea76wmf",
+    "2ic6vb9yhizid92ur9n9xxi": "szxr9zpeiknws64jt9pukac",
+    "dkv1l9rjfmtuvb381wzfylc": "2ic6vb9yhizid92ur9n9xxi",
+    "216hex5p1kh2k1kdaqu7weu": "szxr9zpeiknws64jt9pukac",
+    "lpfrr1yacs078bgw0p6atsn": "216hex5p1kh2k1kdaqu7weu",
+    "8ro3fhncxihetmn2tvwsn44": "lpfrr1yacs078bgw0p6atsn",
+    "17v6equ3zmuv4vr4f8cnq8n": "szxr9zpeiknws64jt9pukac",
+    "1tqfktgqcskw5guluu9i89g": "17v6equ3zmuv4vr4f8cnq8n",
+    "xhx88229rlf7cplyn8xgeo0": "17v6equ3zmuv4vr4f8cnq8n",
+    "osvx2gnctsod61vkscwznbl": "17v6equ3zmuv4vr4f8cnq8n",
+    "zexj7dtzcnoyub3dm4jfjp1": "17v6equ3zmuv4vr4f8cnq8n",
+    "7ow1aom85bxn67e6erzayig": "17v6equ3zmuv4vr4f8cnq8n",
+    "0x0m39l0mocbfqqchcfzj6r": "17v6equ3zmuv4vr4f8cnq8n",
+    "g9nwbq4cmyhe250ps16o3ko": "17v6equ3zmuv4vr4f8cnq8n",
+    "grfp8i5pu8hafamegys9gin": "szxr9zpeiknws64jt9pukac",
+    "hbledjo7sh6d5im35q5tz2n": "grfp8i5pu8hafamegys9gin",
+    "tpph2zjpfbnsmh5976o9bbz": "hbledjo7sh6d5im35q5tz2n",
+    "sqj5q15jlx928zdnfy23sc9": "hbledjo7sh6d5im35q5tz2n",
+    "utq4u5ziflsa3ueu03t3u7w": "szxr9zpeiknws64jt9pukac",
+    "709wtulmm9cgm4rvovmt289": "szxr9zpeiknws64jt9pukac",
+    "hsyocbzfzzcr27ng0hvool5": "709wtulmm9cgm4rvovmt289",
+    "q655mfqtrm5d08yt11ty5u2": "709wtulmm9cgm4rvovmt289",
+    "kqmdg2z40yjosenvccpq0u1": null,
+    "e0xa4qkdstbefku97z2p56o": "kqmdg2z40yjosenvccpq0u1",
+    "bqs3cs7kilvlk5qh5mpm4ai": "kqmdg2z40yjosenvccpq0u1",
+    "lfov4p3lf9ta8k8t159ajpq": "kqmdg2z40yjosenvccpq0u1",
+    "ffcimh0qyzmo6rxrxjqos5h": "kqmdg2z40yjosenvccpq0u1",
+    "bxahgig8bh7akmm4soedysc": "kqmdg2z40yjosenvccpq0u1",
+    "u0li8mukqqst0xdm21v9cjn": "kqmdg2z40yjosenvccpq0u1",
+    "tyu44doj7y5p89moz91x7oi": "kqmdg2z40yjosenvccpq0u1",
+    "nrclw6iqjq9rzl4krvdx8uz": "kqmdg2z40yjosenvccpq0u1",
+    "wbzzi4bmw5c8bpmdf0bvnuv": null,
+    "v0ikr6yppe3n389xq7b9bw3": "wbzzi4bmw5c8bpmdf0bvnuv",
+    "80yeeqztncsevh7hct02zcu": "v0ikr6yppe3n389xq7b9bw3",
+    "gl7r3jaf7lc08fvnw91hgf7": "wbzzi4bmw5c8bpmdf0bvnuv"
+  },
+  "notesLabelById": {
+    "szxr9zpeiknws64jt9pukac": "Software Engineer",
+    "zy1dt4ldyu1o67srea76wmf": "Git",
+    "qg6ox5gr0a9oee3gbv9ywsd": "Git Stage All Then Commit And Push",
+    "2ic6vb9yhizid92ur9n9xxi": "GitHub",
+    "dkv1l9rjfmtuvb381wzfylc": "Create Custom Domains for Multiple Github Pages Repos",
+    "216hex5p1kh2k1kdaqu7weu": "Java",
+    "lpfrr1yacs078bgw0p6atsn": "Spring",
+    "8ro3fhncxihetmn2tvwsn44": "Deserialize Enum Ignore Case in Controller",
+    "17v6equ3zmuv4vr4f8cnq8n": "Linux",
+    "1tqfktgqcskw5guluu9i89g": "Change Default Shell",
+    "xhx88229rlf7cplyn8xgeo0": "Create Init.d Script",
+    "osvx2gnctsod61vkscwznbl": "Link Folder",
+    "zexj7dtzcnoyub3dm4jfjp1": "Mount Smb in WSL",
+    "7ow1aom85bxn67e6erzayig": "Mount Webdav",
+    "0x0m39l0mocbfqqchcfzj6r": "Show All User Group",
+    "g9nwbq4cmyhe250ps16o3ko": "Ungrade Ubuntu 18.04(Bionic Beaver) to 20.04 (Focal Fossa)  on linux deploy",
+    "grfp8i5pu8hafamegys9gin": "Python",
+    "hbledjo7sh6d5im35q5tz2n": "Pyspark",
+    "tpph2zjpfbnsmh5976o9bbz": "Java gateway process exited before sending the driver its port number",
+    "sqj5q15jlx928zdnfy23sc9": "Java Object Not Callable",
+    "utq4u5ziflsa3ueu03t3u7w": "Windows Command Set Proxy",
+    "709wtulmm9cgm4rvovmt289": "Wsl2",
+    "hsyocbzfzzcr27ng0hvool5": "Allow Wsl2 Access Network",
+    "q655mfqtrm5d08yt11ty5u2": "Forward Wsl Port to Host",
+    "kqmdg2z40yjosenvccpq0u1": "Tags",
+    "e0xa4qkdstbefku97z2p56o": "WSL",
+    "bqs3cs7kilvlk5qh5mpm4ai": "Android",
+    "lfov4p3lf9ta8k8t159ajpq": "init.d",
+    "ffcimh0qyzmo6rxrxjqos5h": "Linux",
+    "bxahgig8bh7akmm4soedysc": "Linux Deploy",
+    "u0li8mukqqst0xdm21v9cjn": "Powershell",
+    "tyu44doj7y5p89moz91x7oi": "Shell",
+    "nrclw6iqjq9rzl4krvdx8uz": "Ubuntu",
+    "wbzzi4bmw5c8bpmdf0bvnuv": "Utility",
+    "v0ikr6yppe3n389xq7b9bw3": "Photoprism",
+    "80yeeqztncsevh7hct02zcu": "Auto Index New Files",
+    "gl7r3jaf7lc08fvnw91hgf7": "Sync Folder Outside Onedrive Root"
+  }
+}

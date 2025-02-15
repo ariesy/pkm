@@ -1,0 +1,11 @@
+<h1 id="deserialize-enum-ignore-case-in-controller">Deserialize Enum Ignore Case in Controller<a aria-hidden="true" class="anchor-heading icon-link" href="#deserialize-enum-ignore-case-in-controller"></a></h1>
+<p>The enum parameter in spring boot controller is case sensitive by default.
+To make the enum parameter can be deserialized from case insensitive string, we can add the following web mvc configuration:</p>
+<pre class="language-java"><code class="language-java"><span class="token annotation punctuation">@Configuration</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">WebMvcConfig</span> <span class="token keyword">implements</span> <span class="token class-name">WebMvcConfigurer</span> <span class="token punctuation">{</span>
+<span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">addFormatters</span><span class="token punctuation">(</span><span class="token class-name">FormatterRegistry</span> registry<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">ApplicationConversionService</span><span class="token punctuation">.</span><span class="token function">configure</span><span class="token punctuation">(</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>

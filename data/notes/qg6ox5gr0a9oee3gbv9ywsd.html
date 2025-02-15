@@ -1,0 +1,12 @@
+<h1 id="git-stage-all-then-commit-and-push">Git Stage All Then Commit And Push<a aria-hidden="true" class="anchor-heading icon-link" href="#git-stage-all-then-commit-and-push"></a></h1>
+<p>Use following command</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> -A <span class="token operator">&#x26;&#x26;</span> <span class="token function">git</span> commit -m <span class="token string">"Your Message"</span> <span class="token operator">&#x26;&#x26;</span> <span class="token function">git</span> push
+</code></pre>
+<p>Also can add alas as following:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config --global alias.coa <span class="token string">"!git add -A &#x26;&#x26; git commit -m"</span>
+</code></pre>
+<p>Then run</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> coa <span class="token string">"Your Message"</span> <span class="token operator">&#x26;&#x26;</span> <span class="token function">git</span> push
+</code></pre>
+<p>Reference:</p>
+<p><a href="https://stackoverflow.com/questions/2419249/how-can-i-stage-and-commit-all-files-including-newly-added-files-using-a-singl">https://stackoverflow.com/questions/2419249/how-can-i-stage-and-commit-all-files-including-newly-added-files-using-a-singl</a></p>

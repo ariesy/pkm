@@ -1,0 +1,10 @@
+<h1 id="java-object-not-callable">Java Object Not Callable<a aria-hidden="true" class="anchor-heading icon-link" href="#java-object-not-callable"></a></h1>
+<p>Add env variables:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">export</span> <span class="token assign-left variable">SPARK_HOME</span><span class="token operator">=</span>/usr/local/spark
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token variable">$SPARK_HOME</span>/bin:<span class="token environment constant">$PATH</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">PYSPARK_SUBMIT_ARGS</span><span class="token operator">=</span><span class="token string">"--master local[*]"</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">PYTHONPATH</span><span class="token operator">=</span><span class="token variable">$SPARK_HOME</span>/python/:<span class="token variable">$PYTHONPATH</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">PYTHONPATH</span><span class="token operator">=</span><span class="token variable">$SPARK_HOME</span>/python/lib/*.zip:<span class="token variable">$PYTHONPATH</span>
+</code></pre>
+<p>Reference:
+<a href="https://stackoverflow.com/questions/65713299/javapackage-object-is-not-callable-error-executing-explain-in-pyspark-3-0">https://stackoverflow.com/questions/65713299/javapackage-object-is-not-callable-error-executing-explain-in-pyspark-3-0</a></p>
