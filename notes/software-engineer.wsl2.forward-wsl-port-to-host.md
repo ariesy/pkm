@@ -2,7 +2,7 @@
 id: q655mfqtrm5d08yt11ty5u2
 title: Forward Wsl Port to Host
 desc: ''
-updated: 1697620771037
+updated: 1722677871251
 created: 1697620156942
 tags:
   - WSL
@@ -31,7 +31,7 @@ if( $found ){
 #[Ports]
 
 #All the ports you want to forward separated by coma
-$ports=@(10000,3000,5000,8088,5432,5433,8000,8443,8083,9002,9092,8081,5601);
+$ports=@(10000,3000,5000,8088,5432,5433,8000,8443,8083,9002,9092,8081,5601,3030,3080);
 
 
 #[Static ip]
